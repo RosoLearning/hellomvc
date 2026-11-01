@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "hellomvc"
+  description: "dotnet mvc app from backstage"
+spec:
+  type: service
+  owner: user:default/guest
+  lifecycle: experimental
